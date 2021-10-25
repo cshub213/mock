@@ -1,0 +1,118 @@
+body
+{
+	margin: 0px;
+}
+header
+			{
+				text-align: left;
+				background-color: black;
+				height: 70px;
+				color: white;
+				margin: 0px;
+				display: inline-block;
+				align-items: center;
+				justify-content: space-between;
+			}
+			header #links a 
+			{
+				color: white;
+				text-decoration: none;
+				margin-right: 70px;
+				background-color: orange;
+				padding: 6px 10px;
+				border-radius: 10px;
+				position: relative;
+
+			}
+			 #links
+			{
+				display: inline-block;
+				margin: 0px 0px 0px 200px;
+			}
+			footer
+			{
+				text-align: center;
+				border: 5px solid orange;
+				background: linear-gradient(45deg,orange,white,lightgreen);
+
+			}
+			#links button
+			{
+				position: relative;
+				display: inline;
+				margin-right: 20px;
+			}
+			#c 
+			{
+				margin-left: 120px;
+			}
+			header h1
+			{
+				display: inline;
+			}
+			 #x:hover, #y:hover, #z:hover, #c:hover, #d:hover
+			{
+				box-shadow: 0px 0px 20px white;
+			}
+			@media (min-width: 500px)and (max-width: 1279px)
+			{
+				body
+				{
+					height: 700px;
+				}
+				header
+				{
+					height: 100px;
+				}
+
+				header h1
+				{
+					flex-direction: column;
+					height: 100px;
+					display: flex;
+					text-align: center;
+
+				}
+				#links a
+				{
+					height: 30px;
+					width: 120px;
+					margin-top: 10px;
+					margin-left: -150px;
+					display: inline-block;
+
+				}
+
+				#links button
+				{
+					display: flex;
+					flex-direction: column;
+					margin-left: -80px;
+					margin-top: 20px;
+				}
+				#image img
+				{
+					margin-top: 120px;
+				}
+				#x 
+				{
+					left: -30px;
+				}
+				#y 
+				{
+					left: 80px;
+				}
+				#z 
+				{
+					left: 190px;
+				}
+				#c 
+				{
+					left: -70px;
+				}
+				#d 
+				{
+					top: -58px;
+					left: 20px;
+				}
+			}		
